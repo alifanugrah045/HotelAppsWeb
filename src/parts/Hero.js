@@ -21,11 +21,11 @@ const Hero = (props) => {
     <section className="container pt-4">
       <div className="row align-items-center">
         <div className="col-auto pr-5" style={{ width: 530 }}>
-          <h1 class="font-weight-bold line-height-1 mb-3">
+          <h1 className="font-weight-bold line-height-1 mb-3">
             Forget busy work, <br />
             start next vacation
           </h1>
-          <p class="mb-4 font-weight-light text-gray-500 w-75">We provide what you need to enjoy your holiday with family.Time make another memorable moments.</p>
+          <p className="mb-4 font-weight-light text-gray-500 w-75">We provide what you need to enjoy your holiday with family.Time make another memorable moments.</p>
           <Button className="btn px-5" hasShadow isPrimary onClick={showMostPicked}>
             Show Me Now
           </Button>
