@@ -1,9 +1,11 @@
 import React from "react";
 import Button from "../elements/Button/Button";
 import Star from "../elements/Star/Star";
+import Fade from "react-reveal/Fade";
+
 const Testimoni = ({ data }) => {
   return (
-    
+    <Fade bottom>
     <section className="container">
       <div className="row align-items-center">
         <div className="col-auto" style={{ marginRight: 70 }}>
@@ -32,6 +34,7 @@ const Testimoni = ({ data }) => {
         </div>
       </div>
     </section>
+    </Fade>
   );
 };
 
